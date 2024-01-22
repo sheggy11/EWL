@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+}
+
+.logo-icon {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+}
+
+
+

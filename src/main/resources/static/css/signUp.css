@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+select {
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.signup_link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.signup_link a {
+    text-decoration: none;
+    color: #4caf50;
+}
+
+.password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+#password {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+#showPasswordToggle {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    margin-left: -25px;
+}
+
