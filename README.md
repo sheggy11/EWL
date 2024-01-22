@@ -1,0 +1,7 @@
+## Необходимые настройки и версии
+
+
+java version-- 8  
+JDK -- 1.8  
+Apache Maven -- для сборки проекта  
+PostgreSQL  
